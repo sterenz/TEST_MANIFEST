@@ -1,0 +1,13 @@
+{
+  "id" : "https://sterenz.github.io/TEST_MANIFEST/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in sterenz/TEST_MANIFEST project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://sterenz.github.io/TEST_MANIFEST/manifests/manifest_structures.json",
+    "label" : "[Click to edit label]"
+  } ]
+}
