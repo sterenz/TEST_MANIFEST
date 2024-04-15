@@ -2,14 +2,14 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://sterenz.github.io/TEST_MANIFEST/manifests/manifest_structures.json",
   "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
+  "label" : "Test manifest with Range",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "[Click to edit description]",
+    "@value" : "Test manifest with chapters in PresentationApi v2",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
+  "attribution" : "Stefano Renzetti",
   "sequences" : [ {
     "@id" : "http://bf8d448a-59ef-40c7-ba61-eecf60d0eadf",
     "@type" : "sc:Sequence",
