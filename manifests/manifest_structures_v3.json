@@ -3,11 +3,15 @@
   "id": "https://raw.githubusercontent.com/sterenz/TEST_MANIFEST/main/manifests/manifest_structures_v3.json",
   "type": "Manifest",
   "label": {
-    "en": ["Test manifest with Range"]
+    "en": [
+      "Test manifest with Range"
+    ]
   },
   "metadata": [],
   "summary": {
-    "en": ["Test manifest with chapters in PresentationApi v2"]
+    "en": [
+      "Test manifest with chapters in PresentationApi v3"
+    ]
   },
   "rights": "http://creativecommons.org/licenses/by/3.0/",
   "structures": [
@@ -15,14 +19,18 @@
       "id": "http://example.org/iiif/book1/range/chapter1",
       "type": "Range",
       "label": {
-        "en": ["Chapter 1"]
+        "en": [
+          "Chapter 1"
+        ]
       },
       "items": [
         {
           "id": "http://ba16551d-981b-4d5e-a452-be3a8d2744db",
           "type": "Canvas",
           "label": {
-            "en": ["CHAPTER 1 - PAGE 1"]
+            "en": [
+              "CHAPTER 1 - PAGE 1"
+            ]
           },
           "height": 842,
           "width": 595,
@@ -57,7 +65,9 @@
           "id": "http://95fd2a03-0f2e-480f-8b5e-a086af481b3c",
           "type": "Canvas",
           "label": {
-            "en": ["CHAPTER 1 - PAGE 2"]
+            "en": [
+              "CHAPTER 1 - PAGE 2"
+            ]
           },
           "height": 842,
           "width": 595,
@@ -92,7 +102,9 @@
           "id": "http://27a5440a-0710-41a8-a309-033b15af3f44",
           "type": "Canvas",
           "label": {
-            "en": ["CHAPTER 1 - PAGE 3"]
+            "en": [
+              "CHAPTER 1 - PAGE 3"
+            ]
           },
           "height": 842,
           "width": 595,
@@ -129,14 +141,18 @@
       "id": "http://example.org/iiif/book1/range/chapter2",
       "type": "Range",
       "label": {
-        "en": ["Chapter 2"]
+        "en": [
+          "Chapter 2"
+        ]
       },
       "items": [
         {
           "id": "http://9eee6795-e847-455c-b713-60834e6314b9",
           "type": "Canvas",
           "label": {
-            "en": ["CHAPTER 2 - PAGE 1"]
+            "en": [
+              "CHAPTER 2 - PAGE 1"
+            ]
           },
           "height": 842,
           "width": 595,
@@ -171,7 +187,9 @@
           "id": "http://408be70b-8d61-4f8c-ba0d-30f0c3c6e159",
           "type": "Canvas",
           "label": {
-            "en": ["CHAPTER 2 - PAGE 2"]
+            "en": [
+              "CHAPTER 2 - PAGE 2"
+            ]
           },
           "height": 842,
           "width": 595,
