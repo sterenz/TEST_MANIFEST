@@ -3,6 +3,11 @@
   "@id": "https://sterenz.github.io/TEST_MANIFEST/manifests/manifest_structures.json",
   "@type": "sc:Manifest",
   "label": "Test manifest (presentation v2) with Range",
+  "service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "http://localhost:8888/search-api/f84fd51ec84b9da0146d1ee10623f8fb/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+  },
   "metadata": [],
   "description": [
     {
@@ -137,6 +142,13 @@
               "on": "http://9eee6795-e847-455c-b713-60834e6314b9"
             }
           ],
+          "otherContent": [
+            {
+              "@id": "http://example.com/sas/annotation/list/9af8d62aeb05f35a310837ce1307d801.json",
+              "@type": "sc:AnnotationList",
+              "label": "My fantastic annotations"
+            }
+          ],
           "related": ""
         },
         {
@@ -173,9 +185,19 @@
   ],
   "structures": [
     {
-      "@id": "http://example.org/iiif/book1/range/chapter1",
+      "@id": "http://example.org/iiif/book1/range/book",
+      "@type": "sc:Range",
+      "label": "Book Example",
+      "ranges": [
+        "http://example.org/iiif/book1/range/p1-3",
+        "http://example.org/iiif/book1/range/p4-5"
+      ]
+    },
+    {
+      "@id": "http://example.org/iiif/book1/range/p1-3",
       "@type": "sc:Range",
       "label": "Chapter 1",
+      "within": "http://example.org/iiif/book1/range/book",
       "canvases": [
         "http://ba16551d-981b-4d5e-a452-be3a8d2744db",
         "http://95fd2a03-0f2e-480f-8b5e-a086af481b3c",
@@ -183,9 +205,10 @@
       ]
     },
     {
-      "@id": "http://example.org/iiif/book1/range/chapter2",
+      "@id": "http://example.org/iiif/book1/range/p4-5",
       "@type": "sc:Range",
       "label": "Chapter 2",
+      "within": "http://example.org/iiif/book1/range/book",
       "canvases": [
         "http://9eee6795-e847-455c-b713-60834e6314b9",
         "http://408be70b-8d61-4f8c-ba0d-30f0c3c6e159"
