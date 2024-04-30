@@ -260,6 +260,26 @@
       ]
     }
   ],
+  "annotations": [
+    {
+      "id": "http://ba16551d-981b-4d5e-a452-be3a8d2744db",
+      "type": "AnnotationPage",
+      "items": [
+        {
+          "id": "http://example.org/iiif/book1/tagging/annotation/p1-tag",
+          "type": "Annotation",
+          "motivation": "tagging",
+          "body": {
+            "type": "TextualBody",
+            "value": "Embedded annotation",
+            "language": "en",
+            "format": "text/plain"
+          },
+          "target": "http://ba16551d-981b-4d5e-a452-be3a8d2744db#xywh=0,100,0,100"
+        }
+      ]
+    }
+  ],
   "structures": [
     {
       "id": "http://example.org/iiif/book1/range/book",
