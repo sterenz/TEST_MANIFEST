@@ -87,13 +87,13 @@
                 "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_01_v2/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
+                "height": 842,
+                "width": 595,
                 "service": {
                   "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_01_v2",
                   "type": "ImageService2",
                   "profile": "http://iiif.io/api/image/2/level0.json"
-                },
-                "height": 842,
-                "width": 595
+                }
               },
               "target": "http://ba16551d-981b-4d5e-a452-be3a8d2744db"
             }
@@ -124,13 +124,13 @@
                 "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_02_v2/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
+                "height": 842,
+                "width": 595,
                 "service": {
                   "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_02_v2",
                   "type": "ImageService2",
                   "profile": "http://iiif.io/api/image/2/level0.json"
-                },
-                "height": 842,
-                "width": 595
+                }
               },
               "target": "http://95fd2a03-0f2e-480f-8b5e-a086af481b3c"
             }
@@ -161,13 +161,13 @@
                 "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_03_v2/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
+                "height": 842,
+                "width": 595,
                 "service": {
                   "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_03_v2",
                   "type": "ImageService2",
                   "profile": "http://iiif.io/api/image/2/level0.json"
-                },
-                "height": 842,
-                "width": 595
+                }
               },
               "target": "http://27a5440a-0710-41a8-a309-033b15af3f44"
             }
@@ -198,13 +198,13 @@
                 "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_04_v2/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
+                "height": 842,
+                "width": 595,
                 "service": {
                   "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_04_v2",
                   "type": "ImageService2",
                   "profile": "http://iiif.io/api/image/2/level0.json"
-                },
-                "height": 842,
-                "width": 595
+                }
               },
               "target": "http://9eee6795-e847-455c-b713-60834e6314b9"
             }
@@ -235,13 +235,13 @@
                 "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_05_v2/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
+                "height": 842,
+                "width": 595,
                 "service": {
                   "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_05_v2",
                   "type": "ImageService2",
                   "profile": "http://iiif.io/api/image/2/level0.json"
-                },
-                "height": 842,
-                "width": 595
+                }
               },
               "target": "http://408be70b-8d61-4f8c-ba0d-30f0c3c6e159"
             }
