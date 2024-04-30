@@ -8,7 +8,24 @@
     "@id": "http://localhost:8888/search-api/f84fd51ec84b9da0146d1ee10623f8fb/search",
     "@context": "http://iiif.io/api/search/0/context.json"
   },
-  "metadata": [],
+  "metadata": [
+    {
+      "label": "Location",
+      "value": "Location value"
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Test book in manifest v2"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        "2024"
+      ]
+    }
+  ],
   "description": [
     {
       "@value": "Test manifest with chapters in PresentationApi v2",
@@ -16,6 +33,7 @@
     }
   ],
   "license": "https://creativecommons.org/licenses/by/3.0/",
+  "viewingHint": "paged",
   "attribution": "Stefano Renzetti",
   "sequences": [
     {
