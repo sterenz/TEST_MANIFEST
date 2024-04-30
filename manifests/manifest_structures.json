@@ -73,6 +73,14 @@
               "on": "http://ba16551d-981b-4d5e-a452-be3a8d2744db"
             }
           ],
+          "thumbnail": {
+            "@id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_01_v2/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "width": 119,
+            "height": 150
+          },
+          "viewingHint": "non-paged",
           "related": ""
         },
         {
