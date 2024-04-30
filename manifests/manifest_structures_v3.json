@@ -262,7 +262,7 @@
   ],
   "annotations": [
     {
-      "id": "http://example.org/iiif/book1/tagging/page/p1/1",
+      "id": "http://example.org/iiif/book1/tagging/page/p1",
       "type": "AnnotationPage",
       "items": [
         {
@@ -275,7 +275,7 @@
             "language": "en",
             "format": "text/plain"
           },
-          "target": "http://ba16551d-981b-4d5e-a452-be3a8d2744db#xywh=265,661,1260,1239"
+          "target": "http://ba16551d-981b-4d5e-a452-be3a8d2744db#xywh=100,200,300,400"
         }
       ]
     }
