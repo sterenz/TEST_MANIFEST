@@ -1,10 +1,10 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://raw.githubusercontent.com/sterenz/TEST_MANIFEST/main/manifests/manifest_structures_v3.json",
+  "id": "https://raw.githubusercontent.com/sterenz/TEST_MANIFEST/main/manifests/manifest_structures_annotations_v3.json",
   "type": "Manifest",
   "label": {
     "en": [
-      "Test manifest (presentation v3) with Range"
+      "Test manifest (presentation v3) with Range and annotations"
     ]
   },
   "metadata": [
