@@ -47,7 +47,7 @@
   ],
   "summary": {
     "en": [
-      "Test manifest with chapters in PresentationApi v3"
+      "Test manifest with chapters and annotations in PresentationApi v3"
     ]
   },
   "rights": "http://creativecommons.org/licenses/by/3.0/",
@@ -288,44 +288,137 @@
           ]
         }
       ]
+    },
+    {
+      "id": "http://9eee6795-e847-455c-b713-60834e6314b9",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "CHAPTER 2 - PAGE 1"
+        ]
+      },
+      "height": 842,
+      "width": 595,
+      "items": [
+        {
+          "id": "http://c0d185a0-93d6-4cf1-b88f-11965457ead6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://c0d185a0-93d6-4cf1-b88f-11965457ead6",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_04_v2/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 842,
+                "width": 595,
+                "service": [
+                  {
+                    "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_04_v2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level0.json"
+                  }
+                ]
+              },
+              "target": "http://9eee6795-e847-455c-b713-60834e6314b9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://408be70b-8d61-4f8c-ba0d-30f0c3c6e159",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "CHAPTER 2 - PAGE 2"
+        ]
+      },
+      "height": 842,
+      "width": 595,
+      "items": [
+        {
+          "id": "http://527e5562-f65f-4f1d-bec4-754d1a1013e4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://527e5562-f65f-4f1d-bec4-754d1a1013e4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_05_v2/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 842,
+                "width": 595,
+                "service": [
+                  {
+                    "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_05_v2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level0.json"
+                  }
+                ]
+              },
+              "target": "http://408be70b-8d61-4f8c-ba0d-30f0c3c6e159"
+            }
+          ]
+        }
+      ]
     }
   ],
   "structures": [
     {
-      "id": "http://10d33168-fdbb-4967-b358-04a2b73d5912",
+      "id": "http://example.org/iiif/book1/range/book",
       "type": "Range",
       "label": {
         "en": [
-          "Chapter 1"
+          "Book"
         ]
       },
       "items": [
         {
-          "id": "http://ba16551d-981b-4d5e-a452-be3a8d2744db",
-          "type": "Canvas",
+          "id": "http://example.org/iiif/book1/range/chapter1",
+          "type": "Range",
           "label": {
             "en": [
-              "Chapter 1 - Page 1"
+              "Chapter 1"
             ]
-          }
+          },
+          "items": [
+            {
+              "id": "http://ba16551d-981b-4d5e-a452-be3a8d2744db",
+              "type": "Canvas"
+            },
+            {
+              "id": "http://95fd2a03-0f2e-480f-8b5e-a086af481b3c",
+              "type": "Canvas"
+            },
+            {
+              "id": "http://27a5440a-0710-41a8-a309-033b15af3f44",
+              "type": "Canvas"
+            }
+          ]
         },
         {
-          "id": "http://95fd2a03-0f2e-480f-8b5e-a086af481b3c",
-          "type": "Canvas",
+          "id": "http://example.org/iiif/book1/range/chapter2",
+          "type": "Range",
           "label": {
             "en": [
-              "Chapter 1 - Page 2"
+              "Chapter 2"
             ]
-          }
-        },
-        {
-          "id": "http://27a5440a-0710-41a8-a309-033b15af3f0c",
-          "type": "Canvas",
-          "label": {
-            "en": [
-              "Chapter 1 - Page 3"
-            ]
-          }
+          },
+          "items": [
+            {
+              "id": "http://9eee6795-e847-455c-b713-60834e6314b9",
+              "type": "Canvas"
+            },
+            {
+              "id": "http://408be70b-8d61-4f8c-ba0d-30f0c3c6e159",
+              "type": "Canvas"
+            }
+          ]
         }
       ]
     }
