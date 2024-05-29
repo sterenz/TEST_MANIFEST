@@ -1,0 +1,331 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://raw.githubusercontent.com/sterenz/TEST_MANIFEST/main/manifests/manifest_structures_v3.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Test manifest (presentation v3) with Range"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Location"
+        ]
+      },
+      "value": {
+        "en": [
+          "Location value"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Test book in manifest v3"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "2024"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Test manifest with chapters in PresentationApi v3"
+    ]
+  },
+  "rights": "http://creativecommons.org/licenses/by/3.0/",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Stefano Renzetti"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "http://ba16551d-981b-4d5e-a452-be3a8d2744db",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "CHAPTER 1 - PAGE 1"
+        ]
+      },
+      "height": 842,
+      "width": 595,
+      "items": [
+        {
+          "id": "http://f5270a94-4c8d-42cf-b9ec-bf3f61f6ef1b",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://f5270a94-4c8d-42cf-b9ec-bf3f61f6ef1b",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_01/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 842,
+                "width": 595,
+                "service": [
+                  {
+                    "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_01",
+                    "profile": "level1",
+                    "type": "ImageService3"
+                  }
+                ]
+              },
+              "target": "http://ba16551d-981b-4d5e-a452-be3a8d2744db"
+            }
+          ]
+        },
+        {
+          "id": "http://example.org/iiif/book1/annotations/page1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8888/annotation/1713179240133",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "CHAPTER 1",
+                "language": "en",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "http://ba16551d-981b-4d5e-a452-be3a8d2744db",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "value": "xywh=26,26,166,39"
+                }
+              },
+              "created": "2024-04-15T13:07:20",
+              "modified": "2024-04-29T12:05:59"
+            },
+            {
+              "id": "http://localhost:8888/annotation/1714384788083",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "Page 1",
+                "language": "en",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "http://ba16551d-981b-4d5e-a452-be3a8d2744db",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "value": "xywh=31,68,87,35"
+                }
+              },
+              "created": "2024-04-29T11:59:48",
+              "modified": "2024-04-29T12:05:59"
+            },
+            {
+              "id": "http://localhost:8888/annotation/1714400222479",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "circle",
+                "language": "en",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "http://ba16551d-981b-4d5e-a452-be3a8d2744db",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "value": "xywh=19,100,540,585"
+                }
+              },
+              "created": "2024-04-29T16:17:02",
+              "modified": "2024-04-29T16:17:02"
+            },
+            {
+              "id": "http://localhost:8888/annotation/1714485398417",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "draw",
+                "language": "en",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "http://ba16551d-981b-4d5e-a452-be3a8d2744db",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "value": "xywh=76,151,113,97"
+                }
+              },
+              "created": "2024-04-30T15:56:38",
+              "modified": "2024-04-30T15:56:38"
+            },
+            {
+              "id": "http://localhost:8888/annotation/1714487561352",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "Prova",
+                "language": "en",
+                "format": "text/plain"
+              },
+              "target": {
+                "source": "http://ba16551d-981b-4d5e-a452-be3a8d2744db",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "value": "xywh=326,30,216,200"
+                }
+              },
+              "created": "2024-04-30T16:32:41",
+              "modified": "2024-04-30T16:32:41"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://95fd2a03-0f2e-480f-8b5e-a086af481b3c",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "CHAPTER 1 - PAGE 2"
+        ]
+      },
+      "height": 842,
+      "width": 595,
+      "items": [
+        {
+          "id": "http://df2ac842-624f-43ef-93a7-795824b34e34",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://df2ac842-624f-43ef-93a7-795824b34e34",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_02_v2/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 842,
+                "width": 595,
+                "service": [
+                  {
+                    "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_02_v2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level0.json"
+                  }
+                ]
+              },
+              "target": "http://95fd2a03-0f2e-480f-8b5e-a086af481b3c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://27a5440a-0710-41a8-a309-033b15af3f0c",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "CHAPTER 1 - PAGE 3"
+        ]
+      },
+      "height": 842,
+      "width": 595,
+      "items": [
+        {
+          "id": "http://3c75b9da-0ae2-4f9e-96e4-8a401ba3e994",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://3c75b9da-0ae2-4f9e-96e4-8a401ba3e994",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_03/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 842,
+                "width": 595,
+                "service": [
+                  {
+                    "id": "https://sterenz.github.io/TEST_MANIFEST/images/IIIF-IMAGE-TEST_03",
+                    "profile": "level1",
+                    "type": "ImageService3"
+                  }
+                ]
+              },
+              "target": "http://27a5440a-0710-41a8-a309-033b15af3f0c"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "http://10d33168-fdbb-4967-b358-04a2b73d5912",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Chapter 1"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://ba16551d-981b-4d5e-a452-be3a8d2744db",
+          "type": "Canvas",
+          "label": {
+            "en": [
+              "Chapter 1 - Page 1"
+            ]
+          }
+        },
+        {
+          "id": "http://95fd2a03-0f2e-480f-8b5e-a086af481b3c",
+          "type": "Canvas",
+          "label": {
+            "en": [
+              "Chapter 1 - Page 2"
+            ]
+          }
+        },
+        {
+          "id": "http://27a5440a-0710-41a8-a309-033b15af3f0c",
+          "type": "Canvas",
+          "label": {
+            "en": [
+              "Chapter 1 - Page 3"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
