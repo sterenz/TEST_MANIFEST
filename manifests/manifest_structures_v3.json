@@ -76,11 +76,11 @@
       "width": 595,
       "items": [
         {
-          "id": "http://f5270a94-4c8d-42cf-b9ec-bf3f61f6ef1b",
+          "id": "http://ba16551d-981b-4d5e-a452-be3a8d2744db/annotation-page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://f5270a94-4c8d-42cf-b9ec-bf3f61f6ef1b",
+              "id": "http://ba16551d-981b-4d5e-a452-be3a8d2744db/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -115,11 +115,11 @@
       "width": 595,
       "items": [
         {
-          "id": "http://df2ac842-624f-43ef-93a7-795824b34e34",
+          "id": "http://95fd2a03-0f2e-480f-8b5e-a086af481b3c/annotation-page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://df2ac842-624f-43ef-93a7-795824b34e34",
+              "id": "http://95fd2a03-0f2e-480f-8b5e-a086af481b3c/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -154,11 +154,11 @@
       "width": 595,
       "items": [
         {
-          "id": "http://269ab1ef-3316-488c-bdb8-1eeaa83b89a0",
+          "id": "http://27a5440a-0710-41a8-a309-033b15af3f44/annotation-page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://269ab1ef-3316-488c-bdb8-1eeaa83b89a0",
+              "id": "http://27a5440a-0710-41a8-a309-033b15af3f44/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -193,11 +193,11 @@
       "width": 595,
       "items": [
         {
-          "id": "http://c0d185a0-93d6-4cf1-b88f-11965457ead6",
+          "id": "http://9eee6795-e847-455c-b713-60834e6314b9/annotation-page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://c0d185a0-93d6-4cf1-b88f-11965457ead6",
+              "id": "http://9eee6795-e847-455c-b713-60834e6314b9/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -232,11 +232,11 @@
       "width": 595,
       "items": [
         {
-          "id": "http://527e5562-f65f-4f1d-bec4-754d1a1013e4",
+          "id": "http://408be70b-8d61-4f8c-ba0d-30f0c3c6e159/annotation-page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://527e5562-f65f-4f1d-bec4-754d1a1013e4",
+              "id": "http://408be70b-8d61-4f8c-ba0d-30f0c3c6e159/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
